@@ -1,0 +1,5 @@
+funcoes nada mais do que bloco de codigos que realizam tal tarefa e evitam que a gente fique repetindo tal bloco a cada vez que nos queiramos utilzar
+
+function --> quantasCidades <-- nome da Funcao -->(quantidade)<-- parametro a ser declarado
+var cidadeTotal = 90 
+return <-- retorna uma resposta a ser exibida no console.log
