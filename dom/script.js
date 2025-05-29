@@ -1,29 +1,18 @@
-var possuiGraduacao = false ;
-var possuiDoutorado = false ;
+const href = window.location.href;
 
-if (possuiDoutorado){
-    console.log('Possui graduação e doutorado!')
-}   else if (possuiGraduacao){
-    console.log('Possui graduação!')
-}   else{
-    console.log ('Não possui nada!')
+console.log(href)
+
+const h1 = document.querySelector ('h1');
+
+const h1Class = h1.classList;
+
+function callbackh1(){
+    console.log ('CLicou em ' + h1.outerHTML);
 }
 
-if ( ( 5 - 5 ) && ( 5 >= 5 ) ) {
-    console.log("Verdadeiro")
-}   else {
-    console.log ('Falso')
-}
 
-var condicional2 = (5-5) && (5+5) || (18-2);
-console.log (condicional2)
+h1.addEventListener ('click', callbackh1);
 
-var corFavorita = "Azul";
 
-switch (corFavorita){
-    case 'Azul':
-        console.log ("Olhe para o céu");
-        break
-    default:
-        console.log
-}
+
+
